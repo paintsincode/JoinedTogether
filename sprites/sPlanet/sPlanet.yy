@@ -41,7 +41,7 @@
     "spriteId": {"name":"sPlanet","path":"sprites/sPlanet/sPlanet.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

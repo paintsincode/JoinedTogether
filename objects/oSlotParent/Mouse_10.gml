@@ -4,9 +4,14 @@
 slotHoverUI = instance_create_depth(x-dcos(-angle)*100,y-dsin(-angle)*100, depth-1, oSlotHoverUI);
 slotHoverUI.angle = -angle;
 
-hoverUI = instance_create_depth(1100,120, depth -1, oHoverBase);
-hoverUI.slotInst = self;
+if(!instance_exists(oHoverBase)){
+	hoverUI = instance_create_depth(1100,220, depth -1, oHoverBase);
 
+}else{
+	hoverUI = instance_find(oHoverBase,0);
+	
+}
+	hoverUI.slotInst = self;
 for(i = 0 ; i< array_length(slotEffects); i++){
 	switch(slotEffects[i]){
 		case "RaiseGrowth":
