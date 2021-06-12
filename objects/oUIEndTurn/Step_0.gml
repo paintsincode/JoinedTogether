@@ -9,6 +9,8 @@ if(mouse_check_button_released(mb_left)){
 
 		for(i = 0 ;  i< oPlanet.numberOfSlots ;i++){
 			oPlanet.slotInstances[i].EndOfTurnEffect();
+			oPlanet.endingTurn = true;
 		}
 	}
+	
 }

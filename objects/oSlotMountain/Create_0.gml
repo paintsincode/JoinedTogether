@@ -22,20 +22,21 @@ heatMin =10;
 wetnessMax =80;
 wetnessMin =50;
 
-function OverGrowthEffect(){
+auraAlpha = 1;
+function OverGrowthEffect(leftSlot, rightSlot){
 	
 }
-function UnderGrowthEffect(){
+function UnderGrowthEffect(leftSlot, rightSlot){
 }
 
-function OverHeatEffect(){
+function OverHeatEffect(leftSlot, rightSlot){
 }
-function UnderHeatEffect(){
+function UnderHeatEffect(leftSlot, rightSlot){
 }
 
-function OverWetnessEffect(){
+function OverWetnessEffect(leftSlot, rightSlot){
 }
-function UnderWetnessEffect(){
+function UnderWetnessEffect(leftSlot, rightSlot){
 }
 
 

@@ -23,6 +23,7 @@ heatMin =0;
 wetnessMax =0;
 wetnessMin =0;
 
+auraAlpha = 1;
 
 function OverGrowthEffect(){
 }
