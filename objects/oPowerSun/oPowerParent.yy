@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPowerBase",
+    "path": "sprites/sPowerBase/sPowerBase.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/UI.yy",
+    "name": "Powers",
+    "path": "folders/Powers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSlotHoverUI",
+  "name": "oPowerParent",
   "tags": [],
   "resourceType": "GMObject",
 }

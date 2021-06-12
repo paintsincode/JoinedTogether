@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-slotHoverUI = instance_create_depth(x,y, depth-1, oSlotHoverUI);
+slotHoverUI = instance_create_depth(x-dcos(-angle)*100,y-dsin(-angle)*100, depth-1, oSlotHoverUI);
 slotHoverUI.angle = -angle;
 
-hoverUI = instance_create_depth(1050,120, depth -1, oHoverBase);
+hoverUI = instance_create_depth(1100,120, depth -1, oHoverBase);
 hoverUI.slotInst = self;
 
 for(i = 0 ; i< array_length(slotEffects); i++){

@@ -1,13 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 
 
 xx1 = x -20;
 xx2 = x;
 xx3 = x + 20;
-yy = y-40;
-yyu = y-60;
-yyd = y-20;
+yy = y;
+yyu = y-20;
+yyd = y+20;
 
 draw_sprite_ext(sUIGrowth, 0, xx1, yy, 1,1, 0, c_white,1);
 draw_sprite_ext(sUIHeat, 0, xx2, yy, 1,1, 0, c_white,1);
