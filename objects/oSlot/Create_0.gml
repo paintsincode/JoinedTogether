@@ -91,29 +91,29 @@ function EndOfTurnEffect(){
 		
 	if(slotInst.growthVal > slotInst.growthMax){
 		
-		slotInst.OverGrowthEffect();
+		slotInst.OverGrowthEffect(leftInst, rightInst);
 	}
 	if(slotInst.growthVal < slotInst.growthMin){
 		
-		slotInst.UnderGrowthEffect();
+		slotInst.UnderGrowthEffect(leftInst, rightInst);
 	}
 	
 	if(slotInst.heatVal > slotInst.heatMax){
 		
-		slotInst.OverHeatEffect();
+		slotInst.OverHeatEffect(leftInst, rightInst);
 	}
 	if(slotInst.heatVal < slotInst.heatMin){
 		
-		slotInst.UnderHeatEffect();
+		slotInst.UnderHeatEffect(leftInst, rightInst);
 	}
 	
 	if(slotInst.wetnessVal > slotInst.wetnessMax){
 		
-		slotInst.OverWetnessEffect();
+		slotInst.OverWetnessEffect(leftInst, rightInst);
 	}
 	if(slotInst.wetnessVal < slotInst.wetnessMin){
 		
-		slotInst.UnderWetnessEffect();
+		slotInst.UnderWetnessEffect(leftInst, rightInst);
 	}
 	
 }

@@ -22,20 +22,35 @@ heatMin =10;
 wetnessMax =60;
 wetnessMin =20;
 
-function OverGrowthEffect(){
-	
+auraAlpha = 1;
+
+
+function OverGrowthEffect(leftSlot, rightSlot){
+	leftSlot.growthVal -= 5;	
+	rightSlot.growthVal -= 5;
+	leftSlot.heatVal += 5;
+	rightSlot.heatVal += 5;
 }
-function UnderGrowthEffect(){
+function UnderGrowthEffect(leftSlot, rightSlot){
+	leftSlot.growthVal += 5;	
+	rightSlot.growthVal += 5;
 }
 
-function OverHeatEffect(){
+function OverHeatEffect(leftSlot, rightSlot){
+	leftSlot.heatVal += 5;	
+	rightSlot.heatVal += 5;
+	leftSlot.wetnessVal -= 5;	
+	rightSlot.wetnessVal -= 5;
 }
-function UnderHeatEffect(){
+function UnderHeatEffect(leftSlot, rightSlot){
+	wetnessVal += 5;
 }
 
-function OverWetnessEffect(){
+function OverWetnessEffect(leftSlot, rightSlot){
+	growthVal -= 5;
 }
-function UnderWetnessEffect(){
+function UnderWetnessEffect(leftSlot, rightSlot){
+	growthVal -= 5;
 }
 
 

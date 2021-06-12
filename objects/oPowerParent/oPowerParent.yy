@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Powers",
-    "path": "folders/Powers.yy",
+    "name": "JoinedTogether",
+    "path": "JoinedTogether.yyp",
   },
   "resourceVersion": "1.0",
   "name": "oPowerParent",

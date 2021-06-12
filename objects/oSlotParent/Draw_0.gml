@@ -2,6 +2,22 @@
 // You can write your code in this editor
 
 
+if(oPlanet.endingTurn){
+	
+	
+	draw_sprite_ext(sHeatAura, 0, x,y,1,1,angle,c_white,auraAlpha);
+	draw_sprite_ext(sWetnessAura, 0, x,y,1,1,angle,c_white,auraAlpha);
+	draw_sprite_ext(sGrowthAura, 0, x,y,1,1,angle,c_white,auraAlpha);
+	
+	auraAlpha -= game_get_speed(gamespeed_fps) * 0.0001;
+	if(auraAlpha <= 0){
+		auraAlpha = 1;
+		oPlanet.endingTurn = false;
+	}
+
+}
+
+
 draw_sprite_ext(sprite_index, 0, x,y,1,1, angle, c_white, 1);
 
 
