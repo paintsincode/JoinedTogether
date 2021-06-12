@@ -26,6 +26,7 @@
     {"id":{"name":"sUIHeat","path":"sprites/sUIHeat/sUIHeat.yy",},"order":1,},
     {"id":{"name":"sUIWetness","path":"sprites/sUIWetness/sUIWetness.yy",},"order":2,},
     {"id":{"name":"oPowerSun","path":"objects/oPowerSun/oPowerSun.yy",},"order":6,},
+    {"id":{"name":"fUI","path":"fonts/fUI/fUI.yy",},"order":11,},
     {"id":{"name":"sEmpty","path":"sprites/sEmpty/sEmpty.yy",},"order":4,},
     {"id":{"name":"sUIUp","path":"sprites/sUIUp/sUIUp.yy",},"order":3,},
     {"id":{"name":"sHoverBase","path":"sprites/sHoverBase/sHoverBase.yy",},"order":6,},

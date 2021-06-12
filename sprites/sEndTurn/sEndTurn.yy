@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"86b7c306-c342-4678-9818-2199125d3bfe","path":"sprites/sEndTurn/sEndTurn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86b7c306-c342-4678-9818-2199125d3bfe","path":"sprites/sEndTurn/sEndTurn.yy",},"LayerId":{"name":"3bfb4cea-9ced-4b2a-912a-9988eb213b7c","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEndTurn","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","name":"86b7c306-c342-4678-9818-2199125d3bfe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8a885c27-4fe7-4a50-8963-d64ddb0286a0","path":"sprites/sEndTurn/sEndTurn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8a885c27-4fe7-4a50-8963-d64ddb0286a0","path":"sprites/sEndTurn/sEndTurn.yy",},"LayerId":{"name":"3bfb4cea-9ced-4b2a-912a-9988eb213b7c","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEndTurn","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","name":"8a885c27-4fe7-4a50-8963-d64ddb0286a0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sEndTurn","path":"sprites/sEndTurn/sEndTurn.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3cbe3e12-3f14-4347-a758-f9b825be6d5b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86b7c306-c342-4678-9818-2199125d3bfe","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"accfdfd3-909a-4f16-ba41-a020d4aec659","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a885c27-4fe7-4a50-8963-d64ddb0286a0","path":"sprites/sEndTurn/sEndTurn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

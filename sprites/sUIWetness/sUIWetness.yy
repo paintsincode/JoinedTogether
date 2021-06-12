@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2ebc2ee-5603-4eac-a7c6-8a3b29b409b0","path":"sprites/sUIWetness/sUIWetness.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2ebc2ee-5603-4eac-a7c6-8a3b29b409b0","path":"sprites/sUIWetness/sUIWetness.yy",},"LayerId":{"name":"eda71170-b1ee-4d64-9c33-218ae0dd8912","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sUIWetness","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","name":"c2ebc2ee-5603-4eac-a7c6-8a3b29b409b0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58a85947-8187-4596-90b8-a9cbd44ebed0","path":"sprites/sUIWetness/sUIWetness.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58a85947-8187-4596-90b8-a9cbd44ebed0","path":"sprites/sUIWetness/sUIWetness.yy",},"LayerId":{"name":"eda71170-b1ee-4d64-9c33-218ae0dd8912","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sUIWetness","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","name":"58a85947-8187-4596-90b8-a9cbd44ebed0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sUIWetness","path":"sprites/sUIWetness/sUIWetness.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"be79cf30-4f93-4689-ac5f-e44e07b340a7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2ebc2ee-5603-4eac-a7c6-8a3b29b409b0","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"368d280d-d957-4329-af14-219d5996041d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58a85947-8187-4596-90b8-a9cbd44ebed0","path":"sprites/sUIWetness/sUIWetness.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
