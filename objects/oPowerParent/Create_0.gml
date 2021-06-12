@@ -7,3 +7,4 @@ powerEffect = [];
 powerCost = 0;
 powerHoverUI = -1;
 
+powerName = "";

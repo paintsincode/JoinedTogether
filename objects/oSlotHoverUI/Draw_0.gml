@@ -8,6 +8,9 @@ yy = y;
 yyu = y-20;
 yyd = y+20;
 
+
+//draw_rectangle_color(x-30,y-30, x+30, y+30, c_black, c_black,c_black, c_black, false )
+
 draw_sprite_ext(sUIGrowth, 0, xx1, yy, 1,1, 0, c_white,1);
 draw_sprite_ext(sUIHeat, 0, xx2, yy, 1,1, 0, c_white,1);
 draw_sprite_ext(sUIWetness, 0, xx3, yy, 1,1, 0, c_white,1);

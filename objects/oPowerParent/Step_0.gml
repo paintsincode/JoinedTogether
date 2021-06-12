@@ -37,6 +37,16 @@ if(point_in_rectangle(mx, my, bbox_left, bbox_top, bbox_right, bbox_bottom)){
 			break;
 		}
 	}
+	
+	if(mouse_check_button_released(mb_left)){
+		if(oPowerCaster.activePower == powerName){
+			oPowerCaster.activePower = "";
+		}else{
+			oPowerCaster.activePower = powerName;	
+		}
+		
+	}
+		
 }else{
 	if(powerHoverUI != -1){
 		instance_destroy(powerHoverUI);

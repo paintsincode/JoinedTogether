@@ -83,4 +83,37 @@ function EndOfTurnEffect(){
 		}
 	}
 	
+	if	(slotInst.wetnessVal > slotInst.wetnessMin && slotInst.wetnessVal < slotInst.wetnessMax) &&
+		(slotInst.heatVal > slotInst.heatMin && slotInst.heatVal < slotInst.heatMax){
+			slotInst.growthVal += 5;	
+	}
+	
+		
+	if(slotInst.growthVal > slotInst.growthMax){
+		
+		slotInst.OverGrowthEffect();
+	}
+	if(slotInst.growthVal < slotInst.growthMin){
+		
+		slotInst.UnderGrowthEffect();
+	}
+	
+	if(slotInst.heatVal > slotInst.heatMax){
+		
+		slotInst.OverHeatEffect();
+	}
+	if(slotInst.heatVal < slotInst.heatMin){
+		
+		slotInst.UnderHeatEffect();
+	}
+	
+	if(slotInst.wetnessVal > slotInst.wetnessMax){
+		
+		slotInst.OverWetnessEffect();
+	}
+	if(slotInst.wetnessVal < slotInst.wetnessMin){
+		
+		slotInst.UnderWetnessEffect();
+	}
+	
 }

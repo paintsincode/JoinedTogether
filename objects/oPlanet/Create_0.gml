@@ -3,10 +3,10 @@
 
 randomise();
 
-numberOfSlots = 15;
+numberOfSlots = 6;
 slotSize = sprite_get_width(sForest)/2;
 
-radius = sprite_width /2 + slotSize;
+radius = sprite_width /2 + slotSize -10;
 
 slotInstances = [];
 

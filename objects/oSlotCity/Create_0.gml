@@ -7,6 +7,7 @@ angle = 0;
 
 slotEffects = ["RaiseHeat","LowerGrowth"]
 
+hoverUI = noone;
 
 growthVal = 50;
 wetnessVal = 50;
@@ -20,3 +21,21 @@ heatMin =10;
 
 wetnessMax =60;
 wetnessMin =20;
+
+function OverGrowthEffect(){
+	
+}
+function UnderGrowthEffect(){
+}
+
+function OverHeatEffect(){
+}
+function UnderHeatEffect(){
+}
+
+function OverWetnessEffect(){
+}
+function UnderWetnessEffect(){
+}
+
+
